@@ -58,12 +58,12 @@ Please see below a couple of downloaded and cut audio samples using the provided
 
 | spk_id                   | video_id    | segment_id | audio                                                                        |
 |:-------------------------|:------------|:-----------|:-----------------------------------------------------------------------------|
-| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 8          | <a href="http://www.youtube.com/watch?feature=player_embedded&v=0GSmioPWEQo?start=138&end=142" target="_blank"><img src="http://img.youtube.com/vi/0GSmioPWEQo/0.jpg" alt="Speaker UC--EryqEbhW-VtG80N21TdA, example 1" width="240" height="180" border="10" /></a>  |
-| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 8          | <iframe width="240" height="180" src="https://www.youtube.com/embed/0GSmioPWEQo?start=138" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
-| UC--EryqEbhW-VtG80N21TdA | a_CZzxUqKrY | 2          | [Play](../resources/audio/UC--EryqEbhW-VtG80N21TdA/a_CZzxUqKrY/segment_2.wav)  |
-| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 0          | [Play](../resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/4K03k8nVgp4/segment_0.wav)  |
-| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 6          | [Play](../resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/4K03k8nVgp4/segment_6.wav)  |
-| UCzy4jKI1KXgv8NpYzP2Ezaw | K4zDtpU435c | 2          | [Play](../resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/K4zDtpU435c/segment_2.wav)  |
+| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 8          | <a href="https://www.youtube.com/embed/0GSmioPWEQo?start=138&end=142" target="_blank"><img src="http://img.youtube.com/vi/0GSmioPWEQo/0.jpg" alt="Speaker UC--EryqEbhW-VtG80N21TdA, example 1" width="240" height="180" border="10" /></a> |
+| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 16         | <a href="https://www.youtube.com/embed/0GSmioPWEQo?start=324&end=328" target="_blank"><img src="http://img.youtube.com/vi/0GSmioPWEQo/1.jpg" alt="Speaker UC--EryqEbhW-VtG80N21TdA, example 2" width="240" height="180" border="10" /></a> |
+| UC--EryqEbhW-VtG80N21TdA | a_CZzxUqKrY | 2          | <a href="https://www.youtube.com/embed/a_CZzxUqKrY?start=272&end=276" target="_blank"><img src="http://img.youtube.com/vi/a_CZzxUqKrY/0.jpg" alt="Speaker UC--EryqEbhW-VtG80N21TdA, example 3" width="240" height="180" border="10" /></a> |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 0          | <a href="https://www.youtube.com/embed/4K03k8nVgp4?start=476&end=480" target="_blank"><img src="http://img.youtube.com/vi/4K03k8nVgp4/0.jpg" alt="Speaker UCzy4jKI1KXgv8NpYzP2Ezaw, example 1" width="240" height="180" border="10" /></a> |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 6          | <a href="https://www.youtube.com/embed/4K03k8nVgp4?start=108&end=112" target="_blank"><img src="http://img.youtube.com/vi/4K03k8nVgp4/1.jpg" alt="Speaker UCzy4jKI1KXgv8NpYzP2Ezaw, example 2" width="240" height="180" border="10" /></a> |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | K4zDtpU435c | 2          | <a href="https://www.youtube.com/embed/K4zDtpU435c?start=218&end=222" target="_blank"><img src="http://img.youtube.com/vi/K4zDtpU435c/0.jpg" alt="Speaker UCzy4jKI1KXgv8NpYzP2Ezaw, example 3" width="240" height="180" border="10" /></a> |
 
 
 ## Dataset downloading example
