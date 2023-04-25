@@ -52,7 +52,7 @@ where the name of **.json** file is an *id* of a YouTube channel, json keys are 
 ```
 
 
-## Example of dataset segments
+## Dataset segments example
 
 Please see below the examples of dataset samples obtained using the provided metadata.
 
