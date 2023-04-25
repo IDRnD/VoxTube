@@ -4,6 +4,8 @@ title: The VoxTube Dataset
 description: A multilingual speaker recognition dataset by ID R&D Inc.
 ---
 
+The VoxTube dataset is delivered in the form of YouTube URLs and corresponding meta information per video containing filtered segments with a human speech.
+
 ## Meta file example and description
 
 Meta information is stored in a per-channel manner in `resources/meta/*.json` files:
@@ -27,7 +29,7 @@ Meta information is stored in a per-channel manner in `resources/meta/*.json` fi
 where the name of **.json** file is an *id* of a YouTube channel, json keys are *ids* of YouTube videos and each **segmentX_start** and **segmentX_end** are stamps in seconds, for example
 
 ```
-# cat ../resources/meta/UC__gC1TbqcY5j_owWKKUEUQ.json
+# cat VoxTube/resources/meta/UC__gC1TbqcY5j_owWKKUEUQ.json
 {
     "LYdLsl4zJj0": [
         [114.0, 118.0],
@@ -54,8 +56,17 @@ where the name of **.json** file is an *id* of a YouTube channel, json keys are 
 
 Please see below a couple of downloaded and cut audio samples using the provided metadata and scripts.
 
-<audio ref='sp1_ut1_seg1' src="resources/audio/UC--EryqEbhW-VtG80N21TdA/0GSmioPWEQo/segment_8.wav" autoPlay loop></audio>
-
+| spk_id                   | utt_id      | seg_id | audio                                                                        |
+|:-------------------------|:------------|:-------|:-----------------------------------------------------------------------------|
+| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 8      | [Play](/resources/audio/UC--EryqEbhW-VtG80N21TdA/0GSmioPWEQo/segment_8.wav)  |
+| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 15     | [Play](/resources/audio/UC--EryqEbhW-VtG80N21TdA/0GSmioPWEQo/segment_15.wav) |
+| UC--EryqEbhW-VtG80N21TdA | a_CZzxUqKrY | 2      | [Play](/resources/audio/UC--EryqEbhW-VtG80N21TdA/a_CZzxUqKrY/segment_2.wav)  |
+| UC--EryqEbhW-VtG80N21TdA | a_CZzxUqKrY | 24     | [Play](/resources/audio/UC--EryqEbhW-VtG80N21TdA/a_CZzxUqKrY/segment_24.wav) |
+|                          |             |        |                                                                                       |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 0      | [Play](/resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/4K03k8nVgp4/segment_0.wav)  |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 6      | [Play](/resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/4K03k8nVgp4/segment_6.wav)  |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | K4zDtpU435c | 2      | [Play](/resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/K4zDtpU435c/segment_2.wav)  |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | K4zDtpU435c | 7      | [Play](/resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/K4zDtpU435c/segment_7.wav)  |
 
 
 ## Data downloading example
@@ -82,7 +93,7 @@ git clone https://github.com/IDRnD/VoxTube.git
 
 ### Example usage
 
-> Note that in example script by default each audio is converted to 16 kHz sampling frequency **.wav** file when downloading
+> Note that by default in example script after downloading each audio is converted to 16 kHz sampling frequency **.wav** file and is split into 4 seconds segments.
 
 ```bash
 # example of downloading using one random .json file
@@ -91,4 +102,4 @@ python3 load_data.py ../resources/meta/UCFcL4NsBzfWh1bLr6brouWg.json <DATASET_RO
 ```
 
 
-[back](../index.md)
+[Main page](../index.md)

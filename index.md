@@ -4,9 +4,7 @@ title: The VoxTube Dataset
 description: A multilingual speaker recognition dataset by ID R&D Inc.
 ---
 
-The VoxTube is a multilingual dataset collected from  **CC BY 4.0** YouTube videos. It includes more than
-5.000 speakers pronouncing more than 4 million utterances in more than 10 languages
-The work is conducted by [ID R&D Inc](https://www.idrnd.ai). For the collection and filtering details please see  [1].
+The VoxTube is a multilingual speaker recognition dataset collected from  **CC BY 4.0** YouTube videos. It includes more than **5.000 speakers** pronouncing more than **4 million utterances** in more than **10 languages**. The work is conducted by [ID R&D Inc](https://www.idrnd.ai). For the collection and filtering details please see [[1]](#citation).
 
 ## Data description
 
@@ -37,9 +35,10 @@ Please note that the provided data is relevant on the February 2023 and the corr
 
 ## Citation
 
-Please cite [1] below if you make use of the dataset.
+Please cite paper below if you make use of the dataset:
 
-[1] I. Yakovlev, A. Okhotnikov, N. Torgashov, R. Makarov, 
-Y. Voevodin, K. Simonchik
+```
+[1] I. Yakovlev, A. Okhotnikov, N. Torgashov, R. Makarov, Y. Voevodin, K. Simonchik
 VoxTube: a multilingual speaker recognition dataset  
 INTERSPEECH, 2023.
+```
