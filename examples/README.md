@@ -26,7 +26,7 @@ Meta information is stored in a per-channel manner in `resources/meta/*.json` fi
 }
 ```
 
-where the name of **.json** file is an *id* of a YouTube channel, json keys are *ids* of YouTube videos and each **segmentX_start** and **segmentX_end** are stamps in seconds, for example
+where the name of **.json** file is an *id* of a YouTube channel, json keys are *ids* of YouTube videos and each **segmentX_start** and **segmentX_end** are timestamps in seconds. For example:
 
 ```
 # cat VoxTube/resources/meta/UC__gC1TbqcY5j_owWKKUEUQ.json
@@ -52,24 +52,24 @@ where the name of **.json** file is an *id* of a YouTube channel, json keys are 
 ```
 
 
-## Wav file example
+## Example of dataset segments
 
 Please see below a couple of downloaded and cut audio samples using the provided metadata and scripts.
 
 | spk_id                   | video_id    | seg_id | audio                                                                        |
 |:-------------------------|:------------|:-------|:-----------------------------------------------------------------------------|
-| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 8      | [Play](../resources/audio/UC--EryqEbhW-VtG80N21TdA/0GSmioPWEQo/segment_8.wav)  |
+| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 8      | <a href="http://www.youtube.com/watch?feature=player_embedded&v=0GSmioPWEQo?start=138&end=142" target="_blank"><img src="http://img.youtube.com/vi/0GSmioPWEQo/0.jpg" alt="Speaker UC--EryqEbhW-VtG80N21TdA, example 1" width="240" height="180" border="10" /></a>  |
 | UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 15     | [Play](../resources/audio/UC--EryqEbhW-VtG80N21TdA/0GSmioPWEQo/segment_15.wav) |
 | UC--EryqEbhW-VtG80N21TdA | a_CZzxUqKrY | 2      | [Play](../resources/audio/UC--EryqEbhW-VtG80N21TdA/a_CZzxUqKrY/segment_2.wav)  |
 | UC--EryqEbhW-VtG80N21TdA | a_CZzxUqKrY | 24     | [Play](../resources/audio/UC--EryqEbhW-VtG80N21TdA/a_CZzxUqKrY/segment_24.wav) |
-|                          |             |        |                                                                                       |
-| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 0      | [Play](./resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/4K03k8nVgp4/segment_0.wav)  |
-| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 6      | [Play](./resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/4K03k8nVgp4/segment_6.wav)  |
-| UCzy4jKI1KXgv8NpYzP2Ezaw | K4zDtpU435c | 2      | [Play](./resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/K4zDtpU435c/segment_2.wav)  |
-| UCzy4jKI1KXgv8NpYzP2Ezaw | K4zDtpU435c | 7      | [Play](./resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/K4zDtpU435c/segment_7.wav)  |
+|                          |             |        |                                                                                |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 0      | [Play](../resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/4K03k8nVgp4/segment_0.wav)  |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 6      | [Play](../resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/4K03k8nVgp4/segment_6.wav)  |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | K4zDtpU435c | 2      | [Play](../resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/K4zDtpU435c/segment_2.wav)  |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | K4zDtpU435c | 7      | [Play](../resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/K4zDtpU435c/segment_7.wav)  |
 
 
-## Data downloading example
+## Dataset downloading example
 
 The following snippets show how to download the VoxTube data using meta **.json** file
 

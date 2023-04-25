@@ -28,9 +28,9 @@ Please go to [examples page](./examples/README.md).
 
 ## License
 
-The dataset is licensed under **CC BY-NC-SA 4.0**, please see the [license](LICENSE).
+The dataset is licensed under **CC BY-NC-SA 4.0**, please see the complete version of the [license](LICENSE).
 
-Please note that the provided data is relevant on the February 2023 and the corresponding CC BY 4.0 licenses are valid on that date. ID R&D Inc. is not responsible for changed license type or a video or if the video was deleted. If you have found your channel meta data in this dataset and want to exclude this information, please contact us at www.idrnd.ai/contact.
+Please also note that the provided data is relevant on the February 2023 and the corresponding CC BY 4.0 licenses are valid on that date. ID R&D Inc. is not responsible for changed video license type or if the video was deleted from the YouTube. If you want your channel meta to be deleted from the dataset, please [contact us](https://www.idrnd.ai/contact-us) with a topic "VoxTube change request".
 
 
 ## Citation
