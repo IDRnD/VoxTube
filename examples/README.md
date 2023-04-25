@@ -54,21 +54,21 @@ where the name of **.json** file is an *id* of a YouTube channel, json keys are 
 
 ## Example of dataset segments
 
-Please see below a couple of downloaded and cut audio samples using the provided metadata and scripts.
+Please see below the examples of dataset samples obtained using the provided metadata.
 
-| spk_id                   | video_id    | segment_id | audio                                                                        |
+| spk_id                   | video_id    | timestamp  | audio                                                                        |
 |:-------------------------|:------------|:-----------|:-----------------------------------------------------------------------------|
-| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 8          | <a href="https://www.youtube.com/embed/0GSmioPWEQo?start=138&end=142" target="_blank"><img src="http://img.youtube.com/vi/0GSmioPWEQo/0.jpg" alt="Speaker UC--EryqEbhW-VtG80N21TdA, example 1" width="240" height="180" border="10" /></a> |
-| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 16         | <a href="https://www.youtube.com/embed/0GSmioPWEQo?start=324&end=328" target="_blank"><img src="http://img.youtube.com/vi/0GSmioPWEQo/1.jpg" alt="Speaker UC--EryqEbhW-VtG80N21TdA, example 2" width="240" height="180" border="10" /></a> |
-| UC--EryqEbhW-VtG80N21TdA | a_CZzxUqKrY | 2          | <a href="https://www.youtube.com/embed/a_CZzxUqKrY?start=272&end=276" target="_blank"><img src="http://img.youtube.com/vi/a_CZzxUqKrY/0.jpg" alt="Speaker UC--EryqEbhW-VtG80N21TdA, example 3" width="240" height="180" border="10" /></a> |
-| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 0          | <a href="https://www.youtube.com/embed/4K03k8nVgp4?start=476&end=480" target="_blank"><img src="http://img.youtube.com/vi/4K03k8nVgp4/0.jpg" alt="Speaker UCzy4jKI1KXgv8NpYzP2Ezaw, example 1" width="240" height="180" border="10" /></a> |
-| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 6          | <a href="https://www.youtube.com/embed/4K03k8nVgp4?start=108&end=112" target="_blank"><img src="http://img.youtube.com/vi/4K03k8nVgp4/1.jpg" alt="Speaker UCzy4jKI1KXgv8NpYzP2Ezaw, example 2" width="240" height="180" border="10" /></a> |
-| UCzy4jKI1KXgv8NpYzP2Ezaw | K4zDtpU435c | 2          | <a href="https://www.youtube.com/embed/K4zDtpU435c?start=218&end=222" target="_blank"><img src="http://img.youtube.com/vi/K4zDtpU435c/0.jpg" alt="Speaker UCzy4jKI1KXgv8NpYzP2Ezaw, example 3" width="240" height="180" border="10" /></a> |
+| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | [138, 142] | <a href="https://www.youtube.com/embed/0GSmioPWEQo?start=138&end=142" target="_blank"><img src="http://img.youtube.com/vi/0GSmioPWEQo/0.jpg" alt="Speaker UC--EryqEbhW-VtG80N21TdA, example 1" width="160" height="120" border="10" /></a> |
+| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | [324, 328] | <a href="https://www.youtube.com/embed/0GSmioPWEQo?start=324&end=328" target="_blank"><img src="http://img.youtube.com/vi/0GSmioPWEQo/1.jpg" alt="Speaker UC--EryqEbhW-VtG80N21TdA, example 2" width="160" height="120" border="10" /></a> |
+| UC--EryqEbhW-VtG80N21TdA | a_CZzxUqKrY | [272, 276] | <a href="https://www.youtube.com/embed/a_CZzxUqKrY?start=272&end=276" target="_blank"><img src="http://img.youtube.com/vi/a_CZzxUqKrY/0.jpg" alt="Speaker UC--EryqEbhW-VtG80N21TdA, example 3" width="160" height="120" border="10" /></a> |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | [476, 480] | <a href="https://www.youtube.com/embed/4K03k8nVgp4?start=476&end=480" target="_blank"><img src="http://img.youtube.com/vi/4K03k8nVgp4/0.jpg" alt="Speaker UCzy4jKI1KXgv8NpYzP2Ezaw, example 1" width="160" height="120" border="10" /></a> |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | [108, 112] | <a href="https://www.youtube.com/embed/4K03k8nVgp4?start=108&end=112" target="_blank"><img src="http://img.youtube.com/vi/4K03k8nVgp4/1.jpg" alt="Speaker UCzy4jKI1KXgv8NpYzP2Ezaw, example 2" width="160" height="120" border="10" /></a> |
+| UCzy4jKI1KXgv8NpYzP2Ezaw | K4zDtpU435c | [218, 222] | <a href="https://www.youtube.com/embed/K4zDtpU435c?start=218&end=222" target="_blank"><img src="http://img.youtube.com/vi/K4zDtpU435c/0.jpg" alt="Speaker UCzy4jKI1KXgv8NpYzP2Ezaw, example 3" width="160" height="120" border="10" /></a> |
 
 
-## Dataset downloading example
+## Dataset downloading
 
-The following snippets show how to download the VoxTube data using meta **.json** file
+The following snippets show how to download the VoxTube data using meta **.json** files.
 
 ### Pre-requisites
 
@@ -82,7 +82,7 @@ sudo apt-get install ffmpeg libsndfile1
 python3 -m pip install -r requirements.txt
 ```
 
-* Download required **.json** files by cloning the [VoxTube](https://github.com/IDRnD/VoxTube) repo
+* Download required **.json** files by cloning the [VoxTube](https://github.com/IDRnD/VoxTube) repo:
 ```bash
 git clone https://github.com/IDRnD/VoxTube.git
 ```
