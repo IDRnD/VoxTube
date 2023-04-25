@@ -4,7 +4,7 @@ title: The VoxTube Dataset
 description: A multilingual speaker recognition dataset by ID R&D Inc.
 ---
 
-The VoxTube dataset is delivered in the form of YouTube URLs and corresponding meta information per video containing filtered segments with a human speech.
+The VoxTube dataset is delivered in the form of YouTube URLs and corresponding meta information per video containing filtered segments with human speech.
 
 ## Meta file example and description
 
@@ -56,7 +56,7 @@ where the name of **.json** file is an *id* of a YouTube channel, json keys are 
 
 Please see below the examples of dataset samples obtained using the provided metadata.
 
-| spk_id                   | video_id    | timestamp  | audio                                                                        |
+| spk_id                   | video_id    | timestamps | audio                                                                        |
 |:-------------------------|:------------|:-----------|:-----------------------------------------------------------------------------|
 | UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | [138, 142] | <a href="https://www.youtube.com/embed/0GSmioPWEQo?start=138&end=142" target="_blank"><img src="http://img.youtube.com/vi/0GSmioPWEQo/0.jpg" alt="Speaker UC--EryqEbhW-VtG80N21TdA, example 1" width="160" height="120" border="10" /></a> |
 | UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | [324, 328] | <a href="https://www.youtube.com/embed/0GSmioPWEQo?start=324&end=328" target="_blank"><img src="http://img.youtube.com/vi/0GSmioPWEQo/1.jpg" alt="Speaker UC--EryqEbhW-VtG80N21TdA, example 2" width="160" height="120" border="10" /></a> |
@@ -68,7 +68,7 @@ Please see below the examples of dataset samples obtained using the provided met
 
 ## Dataset downloading
 
-The following snippets show how to download the VoxTube data using meta **.json** files.
+The following snippets show how to download the VoxTube data using the meta **.json** files.
 
 ### Pre-requisites
 

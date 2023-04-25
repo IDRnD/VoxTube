@@ -23,7 +23,7 @@ The VoxTube is a multilingual speaker recognition dataset collected from the **C
 
 ## Examples and data downloading
 
-Please go to [examples page](./examples/README.md).
+Please go to the [examples page](./examples/README.md).
 
 
 ## License
