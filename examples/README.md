@@ -58,10 +58,10 @@ Please see below a couple of downloaded and cut audio samples using the provided
 
 | spk_id                   | video_id    | seg_id | audio                                                                        |
 |:-------------------------|:------------|:-------|:-----------------------------------------------------------------------------|
-| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 8      | [Play](./resources/audio/UC--EryqEbhW-VtG80N21TdA/0GSmioPWEQo/segment_8.wav)  |
-| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 15     | [Play](./resources/audio/UC--EryqEbhW-VtG80N21TdA/0GSmioPWEQo/segment_15.wav) |
-| UC--EryqEbhW-VtG80N21TdA | a_CZzxUqKrY | 2      | [Play](./resources/audio/UC--EryqEbhW-VtG80N21TdA/a_CZzxUqKrY/segment_2.wav)  |
-| UC--EryqEbhW-VtG80N21TdA | a_CZzxUqKrY | 24     | [Play](./resources/audio/UC--EryqEbhW-VtG80N21TdA/a_CZzxUqKrY/segment_24.wav) |
+| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 8      | [Play](../resources/audio/UC--EryqEbhW-VtG80N21TdA/0GSmioPWEQo/segment_8.wav)  |
+| UC--EryqEbhW-VtG80N21TdA | 0GSmioPWEQo | 15     | [Play](../resources/audio/UC--EryqEbhW-VtG80N21TdA/0GSmioPWEQo/segment_15.wav) |
+| UC--EryqEbhW-VtG80N21TdA | a_CZzxUqKrY | 2      | [Play](../resources/audio/UC--EryqEbhW-VtG80N21TdA/a_CZzxUqKrY/segment_2.wav)  |
+| UC--EryqEbhW-VtG80N21TdA | a_CZzxUqKrY | 24     | [Play](../resources/audio/UC--EryqEbhW-VtG80N21TdA/a_CZzxUqKrY/segment_24.wav) |
 |                          |             |        |                                                                                       |
 | UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 0      | [Play](./resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/4K03k8nVgp4/segment_0.wav)  |
 | UCzy4jKI1KXgv8NpYzP2Ezaw | 4K03k8nVgp4 | 6      | [Play](./resources/audio/UCzy4jKI1KXgv8NpYzP2Ezaw/4K03k8nVgp4/segment_6.wav)  |
