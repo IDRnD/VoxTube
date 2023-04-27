@@ -10,12 +10,12 @@ The VoxTube is a multilingual speaker recognition dataset collected from the **C
 
 | Dataset properties           | Stats     |
 |:-----------------------------|:----------|
-| # of POI                     | 5.064     |
-| # of videos                  | 308.883   |
-| # of segments                | 4.481.060 |
-| # of hours                   | 4.979     |
+| # of POI                     | 5.040     |
+| # of videos                  | 306.248   |
+| # of segments                | 4.439.888 |
+| # of hours                   | 4.933     |
 | Avg # of videos per POI      | 61        |
-| Avg # of segments per POI    | 885       |
+| Avg # of segments per POI    | 881       |
 | Avg length of segments (sec) | 4         |
 
 ###  Language and gender distributions
