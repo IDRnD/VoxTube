@@ -52,7 +52,7 @@ where the name of **.json** file is an *id* of a YouTube channel, json keys are 
 ```
 
 
-## Dataset segments example
+## Segments examples
 
 Please see below the examples of dataset samples obtained using the provided metadata.
 
@@ -77,9 +77,6 @@ The following snippets show how to download the VoxTube data using the meta **.j
 ```bash
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install ffmpeg libsndfile1
-
-# install python requirements
-python3 -m pip install -r requirements.txt
 ```
 
 * Download required **.json** files by cloning the [VoxTube](https://github.com/IDRnD/VoxTube) repo:
@@ -87,10 +84,16 @@ python3 -m pip install -r requirements.txt
 git clone https://github.com/IDRnD/VoxTube.git
 ```
 
+* Install Python requirements
+```bash
+cd VoxTube/examples
+python3 -m pip install -r requirements.txt
+```
+
 
 ### Example usage
 
-> Note that by default in example script after downloading each audio is converted to 16 kHz sampling frequency **.wav** file and is split into 4 seconds segments.
+> Note that in default example script each audio is converted to 16 kHz sampling frequency **.wav** file and is split into 4-seconds segments.
 
 ```bash
 # example of downloading using one random .json file
