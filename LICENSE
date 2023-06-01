@@ -1,7 +1,7 @@
 ID R&D VoxTube Dataset 
 
 The VoxTube contains ~4.5M 4-seconds segments from >300K unique 
-utterances (CC BY videos) for 5.064 YouTube channels. The dataset size 
+utterances (CC BY videos) for 5.040 YouTube channels. The dataset size 
 is approximately 5k hours of speech.
 
 The speakers span a wide range of different ethnicities, accents, 
