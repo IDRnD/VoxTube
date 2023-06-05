@@ -73,7 +73,6 @@ The following snippets show how to download the VoxTube data using the meta **.j
 ### Pre-requisites
 
 * Install **ffmpeg** and **libsndfile1**:
-
 ```bash
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install ffmpeg libsndfile1
