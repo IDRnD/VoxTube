@@ -99,12 +99,21 @@ def download_process_and_cut_channel_videos(channel_meta_path, output_root):
         output_path = output_root / channel_id / video_id
         output_path.parent.mkdir(exist_ok=True, parents=True)
         ydl_opts['outtmpl'] = f'{str(output_path)}.%(ext)s'
+        log_fcn = output_path.with_suffix(".err").write_text
         try:
             pp = FFmpegPostProcessor(samplerate=16000)
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 ydl.add_post_processor(pp, when='post_process')
-                ydl.download(video_id)
-
+                download_return_code = ydl.download(video_id)
+            if download_return_code:
+                error_message = "yt-dlp is unable to make a download of video " \
+                     f"{video_id} from channel {channel_id}, please see the " \
+                     "script download log. This most likely means that a channel " \
+                     "or video doesn't exist anymore. Please check the links " \
+                     f"https://www.youtube.com/channel/{channel_id} and " \
+                     f"https://www.youtube.com/watch?v={video_id} manually."
+                log_fcn(error_message)
+                continue
             audio_fp = output_path.with_suffix(".wav")
             output_path.mkdir(exist_ok=True, parents=True)
             if audio_fp.exists():
@@ -120,8 +129,8 @@ def download_process_and_cut_channel_videos(channel_meta_path, output_root):
                              subtype='PCM_16')
             audio_fp.unlink()
         except:
-            output_path.with_suffix(".err").write_text(traceback.format_exc())
-            return None
+            log_fcn(traceback.format_exc())
+            continue
 
 
 if __name__ == "__main__":
