@@ -72,7 +72,7 @@ The following snippets show how to download the VoxTube data using the meta **.j
 
 ### Pre-requisites
 
-* Install **ffmpeg**, **libsndfile1** and [**yt-dlp**](https://github.com/yt-dlp/yt-dlp) libraries:
+* Install **ffmpeg** and **libsndfile1**:
 
 ```bash
 sudo apt-get update && sudo apt-get upgrade
@@ -84,7 +84,7 @@ sudo apt-get install ffmpeg libsndfile1
 git clone https://github.com/IDRnD/VoxTube.git
 ```
 
-* Install Python requirements
+* Install Python [**yt-dlp**](https://github.com/yt-dlp/yt-dlp) library:
 ```bash
 cd VoxTube/examples
 python3 -m pip install -r requirements.txt
