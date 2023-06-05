@@ -1,15 +1,11 @@
 # The VoxTube Dataset
 
-This is a repo containing the [VoxTube dataset](#citation). The work is conducted by [ID R&D Inc.](https://www.idrnd.ai)
+This is a repo containing the [VoxTube dataset](#citation). The work is conducted by [ID R&D Inc.](https://www.idrnd.ai) The dataset (meta) is distributed under the **CC BY-NC-SA 4.0 [LICENSE](LICENSE)**. For the details please visit the [dataset main page](https://idrnd.github.io/VoxTube).
 
-The dataset (meta) is distributed under the **CC BY-NC-SA 4.0 [LICENSE](LICENSE)**.
-
-For the details please visit the [dataset main page](https://idrnd.github.io/VoxTube).
-
-
-The VoxTube is a multilingual speaker recognition dataset collected from the **CC BY 4.0** YouTube videos. It includes more than **5.000 speakers** pronouncing more than **4 million utterances** in more than **10 languages**. The work is conducted by [ID R&D Inc](https://www.idrnd.ai). For the collection and filtering details please see [[1]](#citation).
 
 ## Data description
+
+The VoxTube is a multilingual speaker recognition dataset collected from the **CC BY 4.0** YouTube videos. It includes more than **5.000 speakers** pronouncing more than **4 million utterances** in more than **10 languages**. For the collection and filtering details please see [[1]](#citation).
 
 | Dataset properties           | Stats     |
 |:-----------------------------|:----------|
