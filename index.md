@@ -45,7 +45,5 @@ This is a [live repository](https://github.com/IDRnD/VoxTube), so any changes to
 Please cite the paper below if you make use of the dataset:
 
 ```
-[1] I. Yakovlev, A. Okhotnikov, N. Torgashov, R. Makarov, Y. Voevodin, K. Simonchik
-VoxTube: a multilingual speaker recognition dataset  
-INTERSPEECH, 2023.
+[1] Yakovlev, I., Okhotnikov, A., Torgashov, N., Makarov, R., Voevodin, Y., Simonchik, K. (2023) VoxTube: a multilingual speaker recognition dataset. Proc. INTERSPEECH 2023, 2238-2242, doi: 10.21437/Interspeech.2023-1083
 ```
