@@ -95,9 +95,13 @@ python3 -m pip install -r requirements.txt
 > Note that in default example script each audio is converted to 16 kHz sampling frequency **.wav** file and is split into 4-seconds segments.
 
 ```bash
-# example of one speaker downloading using meta .json file
 cd VoxTube/examples
-python3 load_data.py ../resources/meta/UCFcL4NsBzfWh1bLr6brouWg.json <DATASET_ROOT>
+
+# example of one speaker downloading using meta .json file
+python3 load_example.py ../resources/meta/UC-9GWCoQoMr_ey6AMhClStQ.json <DATASET_ROOT>
+
+# example of downloading the whole dataset in N parallel jobs
+python3 load_all_examples.py -r <DATASET_ROOT> -j N
 ```
 
 
