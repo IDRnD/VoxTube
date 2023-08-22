@@ -2,17 +2,20 @@
 import argparse
 import multiprocessing as mp
 import os
-import subprocess as sp
 from functools import partial
 from pathlib import Path
 
 from tqdm import tqdm
 
+from load_example import download_process_and_cut_channel_videos
 
-def load_json(json_path, dataset_root, load_script_path):
+
+def load_json(json_path, dataset_root):
     try:
-        status = sp.run(["python3", load_script_path, str(json_path), dataset_root])
-        return status
+        download_process_and_cut_channel_videos(
+            json_path,
+            dataset_root
+        )
     except Exception as e:
         print(f'Error while loading channel {json_path}')
         print(f'Exception: {str(e)}')
@@ -23,19 +26,12 @@ def main(dataset_root, nj=1):
     fwd = os.path.dirname(os.path.realpath(__file__))
     meta_path = Path(f'{fwd}/../resources/meta')
     json_paths = sorted(list(meta_path.glob('*.json')))
-    path_to_download_script = f'{fwd}/load_example.py'
 
     # Run downloading
     load_job = partial(
         load_json,
-        dataset_root=dataset_root,
-        load_script_path=path_to_download_script
+        dataset_root=dataset_root
     )
-
-    # with mp.Pool(nj) as pool:
-    #     _ = pool.imap(
-    #         load_job, tqdm(json_paths, total=len(json_paths))
-    #     )
 
     with tqdm(total=len(json_paths)) as pb:
         with mp.Pool(nj) as pool:

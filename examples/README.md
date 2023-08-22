@@ -101,6 +101,8 @@ cd VoxTube/examples
 python3 load_example.py ../resources/meta/UC-9GWCoQoMr_ey6AMhClStQ.json <DATASET_ROOT>
 
 # example of downloading the whole dataset in N parallel jobs
+# WARNING: you might run into HTTP Error 429 if there are too many requests
+# (parallel jobs) used, decrease -j parameter in this case
 python3 load_all_examples.py -r <DATASET_ROOT> -j N
 ```
 
