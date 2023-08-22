@@ -23,7 +23,7 @@ def main(dataset_root, nj=1):
     fwd = os.path.dirname(os.path.realpath(__file__))
     meta_path = Path(f'{fwd}/../resources/meta')
     json_paths = sorted(list(meta_path.glob('*.json')))
-    path_to_download_script = f'{fwd}/load_data.py'
+    path_to_download_script = f'{fwd}/load_example.py'
 
     # Run downloading
     load_job = partial(
