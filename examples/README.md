@@ -6,6 +6,8 @@ description: A multilingual speaker recognition dataset by ID R&D Inc.
 
 The VoxTube dataset is delivered in the form of YouTube URLs and corresponding meta information per video containing filtered segments with human speech.
 
+**Updated 02.2024**: *HuggingFace datasets* implementation of a VoxTube is available [here](https://huggingface.co/datasets/voice-is-cool/voxtube)
+
 ## Meta file example and description
 
 Meta information is stored in a per-channel manner in `resources/meta/*.json` files:

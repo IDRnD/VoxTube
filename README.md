@@ -26,6 +26,8 @@ Labels for the language and gender of each speaker could be found [here](resourc
 
 Please go to the [examples page](./examples/README.md).
 
+**Updated 02.2024**: *HuggingFace datasets* implementation of a VoxTube is available [here](https://huggingface.co/datasets/voice-is-cool/voxtube)
+
 
 ## License
 
