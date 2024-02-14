@@ -1,4 +1,4 @@
-# The VoxTube Dataset
+# The VoxTube Dataset [![VoxTube on Hugginface](https://huggingface.co/datasets/huggingface/badges/blob/main/dataset-on-hf-xl.svg)](https://huggingface.co/datasets/voice-is-cool/voxtube)
 
 This is a repo containing the [VoxTube](https://idrnd.github.io/VoxTube) dataset. The work is conducted by [ID R&D Inc.](https://www.idrnd.ai) The dataset meta is distributed under the **CC BY-NC-SA 4.0 [LICENSE](LICENSE)**.
 
